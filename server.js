@@ -15,8 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://expense-tracker-frontend-eight-rust.vercel.app", // production
-      "https://expense-tracker-frontend-git-main-venkats-projects-402dc0d4.vercel.app", // vercel preview
+      "https://expense-tracker-frontend-zeta-sand.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
